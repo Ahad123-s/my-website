@@ -1,0 +1,45 @@
+body{
+    background-color: #0c0053;
+    color: #ffffff;
+    font-family: 'Zalando Sans Expanded', sans-serif;}
+h1{
+    color: khaki  ;
+    text-align: center;
+    font-size: 35px;
+
+
+}
+.unique{
+    
+    text-align: center;
+    font-size: 15px;
+    line-height: 1px;
+}
+h2{
+    color: khaki;
+    font-size: 25px;
+}
+nav{
+
+    color: #ffffff;
+    
+}
+hr{
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+#unique{
+    text-align: center;
+    font-size: 18px;
+}
+a{
+    color: hsl(126, 100%, 82%);
+}
+#backtohome{
+    text-align: center;
+    font-size: 18px;
+}
+#backtotop{
+    text-align: center;
+    font-size: 18px;
+}

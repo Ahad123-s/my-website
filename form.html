@@ -1,0 +1,107 @@
+<!DOCTYPE>
+<html lang="en">
+ <head>
+    <title>Contact Me</title>
+    <meta charset="UTF-8">
+    <meta name="authour" content="Aahad Munir">
+    <meta name="description" content=" Contact information page for my personal portfolio website">
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+    <link rel="icon" href="images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap">
+ </head>
+
+ <body>
+    <main>
+        <header>
+            <ul>
+            <li><h2>Fill Form here:</h2></li>
+             </ul>
+            <p>I'd love to hear from you! Please fill out the form below:</p>
+
+        </header>
+
+        <section>
+            <fieldset>
+                <legend> Personal Info</legend>
+            <form action="https://httpbin.org/get" method="get">
+                <p>
+                    <lable id="firstName"> Your First Name: </lable>  
+                    <input type="text" name="firstName" id="firstName" placeholder="Aahad" required>
+                </p>
+                <p>
+                    <lable id="lastName"> Your Last Name: </lable>  
+                    <input type="text" name="lastName" id="lastName" placeholder="Munir" required>
+                </p> 
+                <p>
+                    <lable id="email"> Your email: </lable>  
+                    <input type="email" name="email" id="email" placeholder="aahadmunir@example.com" required>
+                </p> 
+                <p>
+                    <lable id="password"> Your password: </lable>  
+                    <input type="password" name="password" id="password" placeholder="Enter your password" required>
+                </p> 
+                <p>
+                    <lable id="age"> Your age: </lable>  
+                    <input type="number" name="age" id="age" min="15" max="50" step="1" value="15" required>
+                </p> 
+
+                <p>
+                    <lable for="occupation"> Your Occupation:</lable>
+                    <select name="occupation" id="occupation" required>
+                        <optgroup label="Student">
+                        <option value="school"> School Student</option>
+                        <option value="college"> College Student</option>
+                        <option value="university" selected> University Student</option>
+                        </optgroup>
+                        <optgroup label="In field">  
+                        <option value="Job"> Job</option>
+                        <option value="freelance"> Freelancing</option>
+                        </optgroup>
+                        <option value="other"> Other</option>
+                    </select>
+                </p>
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend> your Religion</legend>
+
+                <p>
+                    <input type="radio" name="religion" id="islam" value="islam" required>
+                    <label for="islam"> Islam</label>
+                </p>
+                <p>
+                    <input type="radio" name="religion" id="christianity" value="christianity" required>
+                    <label for="christianity"> Christianity</label>
+                </p>
+                <p>
+                    <input type="radio" name="religion" id="other" value="other" required>
+                    <label for="other"> Other</label>
+                </p>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend> Send Message</legend> 
+                <p>
+                    <label for="message"> Your Message: </label>
+                    <br>
+                    <br>
+                    <textarea name="message" id="message" placeholder="Type your message here..." cols="60" rows="10"></textarea>
+                </p>
+            </fieldset>
+            <br>
+             <button type="submit"> Submit </button> <button type="reset"> Reset</button>
+              </form>
+        </section>
+        <hr>
+    <footer>
+        <p> Copyright &copy 2026 Aahad Munir</p>
+    </footer>
+    <nav id="backtohome">
+        <a href="index.html"> back to home</a>
+    </nav>
+
+    </main>
+ </body>
+</html>
